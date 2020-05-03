@@ -1,0 +1,29 @@
+name: FarmweltGui
+version: 0.1
+main: de.AlbraeTonomis.farmweltGui.FarmweltGui
+api-version: 1.13
+
+commands:
+   farmwelt:
+      description: Dieser Comand oeffnet die Farm Gui
+   setspawn:
+      describtion: setze den Spawn
+permissions:
+   farmweltgui.setNether
+      describtion: Darf Netherspawn setzen
+      default: false   
+   farmweltgui.setEnde
+      describtion: Darf Endespawn setzen
+      default: false
+   farmweltgui.setOberwelt
+      describtion: Darf Oberweltspawn setzen
+      default: false
+   farmweltGui.teleportOberwelt
+      describtion: Darf zum Oberweltspawn teleportiern
+      default: false
+   farmweltGui.teleportNether
+      describtion: Darf zum Netherspawn teleportiern
+      default: false
+   farmweltGui.teleportEnde
+      describtion: Darf zum Ende-spawn teleportiern
+      default: false
